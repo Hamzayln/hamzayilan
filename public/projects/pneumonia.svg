@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 450" width="800" height="450">
+  <defs>
+    <linearGradient id="bg2" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#0c1a2e"/>
+      <stop offset="100%" stop-color="#164e63"/>
+    </linearGradient>
+  </defs>
+  <rect width="800" height="450" fill="url(#bg2)"/>
+  <!-- chest x-ray silhouette -->
+  <g fill="none" stroke="#67e8f9" stroke-width="6" opacity="0.85">
+    <path d="M400 90 C300 90, 260 160, 260 240 C260 320, 300 370, 340 380 L340 300 C340 260, 360 230, 400 230 C440 230, 460 260, 460 300 L460 380 C500 370, 540 320, 540 240 C540 160, 500 90, 400 90 Z"/>
+    <line x1="400" y1="110" x2="400" y2="360"/>
+    <path d="M300 160 Q320 200 300 260"/>
+    <path d="M500 160 Q480 200 500 260"/>
+  </g>
+  <!-- highlighted detection region -->
+  <circle cx="460" cy="220" r="34" fill="#f87171" fill-opacity="0.25" stroke="#f87171" stroke-width="3" stroke-dasharray="6 4"/>
+  <text x="60" y="400" font-family="Arial, sans-serif" font-size="28" font-weight="bold" fill="#e2e8f0">Zatürre (Pnömoni) Tespiti</text>
+  <text x="60" y="428" font-family="Arial, sans-serif" font-size="16" fill="#67e8f9">ResNet50 · EfficientNetB4 · DenseNet121</text>
+</svg>
