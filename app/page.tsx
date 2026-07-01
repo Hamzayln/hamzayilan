@@ -49,7 +49,7 @@ export default function Home() {
               <span className="inline-flex items-center gap-2 rounded-full border border-white/10 bg-white/[0.03] px-4 py-1.5 mb-6">
                 <Sparkles size={14} className="text-[#d4b47a]" aria-hidden="true" />
                 <span className="text-xs font-bold uppercase tracking-widest text-[#d4b47a]">
-                  Yazılım Mühendisliği · 4. Sınıf
+                  Yazılım Mühendisliği Mezunu
                 </span>
               </span>
 
